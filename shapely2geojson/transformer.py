@@ -80,11 +80,21 @@ SWITCHER = {
 
 
 def transform(geometry):
+    """
+    This function only returns the transformed coordinates from shapely to geojson
+    :param geometry:
+    :return:
+    """
     geometry_type = type(geometry)
     get_coordinates = SWITCHER.get(geometry_type)
     return get_coordinates(geometry)
 
 
-def get_geojson_feature(geometry):
+def get_feature(geometry):
+    """
+    This is the main function which returns geojson feature from shapely feature
+    :param geometry:
+    :return:
+    """
     coordinates = transform(geometry)
     return _create_geojson(coordinates)
