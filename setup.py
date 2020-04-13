@@ -8,14 +8,14 @@ setup(
     description='This is a repo which contains code to convert shapely objects to geojson features',
     author='Ashish Dhiman',
     author_email='ashish.dhiman.nith@gmail.com',
-    url='https://github.com/aashishd',
-    download_url='https://github.com/aashishd/shapely2geojson/archive/v_01.tar.gz',
+    url='https://github.com/aashishd/shapely2geojson',
+    download_url='https://github.com/aashishd/shapely2geojson/archive/v_02.tar.gz',
     keywords=['shapely', 'geojson', 'conversion', 'shapely-to-geojson', 'convert', 'convert-shapely'],
     install_requires=[
         'Shapely',
     ],
     classifiers=[
-        'Development Status :: 4 - Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: MIT License',

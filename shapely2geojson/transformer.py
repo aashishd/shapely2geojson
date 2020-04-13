@@ -97,4 +97,4 @@ def get_feature(geometry):
     :return:
     """
     coordinates = transform(geometry)
-    return _create_geojson(coordinates)
+    return _create_geojson(coordinates, type(geometry))
