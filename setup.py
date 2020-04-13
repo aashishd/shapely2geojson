@@ -9,7 +9,7 @@ setup(
     author='Ashish Dhiman',
     author_email='ashish.dhiman.nith@gmail.com',
     url='https://github.com/aashishd',
-    download_url='https://github.com/aashishd/shapely2geojson/v_01.tar.gz',
+    download_url='https://github.com/aashishd/shapely2geojson/archive/v_01.tar.gz',
     keywords=['shapely', 'geojson', 'conversion', 'shapely-to-geojson', 'convert', 'convert-shapely'],
     install_requires=[
         'Shapely',
